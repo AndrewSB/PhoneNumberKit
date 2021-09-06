@@ -18,7 +18,7 @@ let package = Package(
                           "Resources/README.md",
                           "Resources/update.sh",
                           "Info.plist", 
-                          "Bundle+Resources.swift"],
+                          "Bundle+NonSwiftUIResources.swift"],
                 resources: [
                     .process("Resources/PhoneNumberMetadata.json")
                 ]),
